@@ -65,9 +65,10 @@
 ![hdfclogofull](https://user-images.githubusercontent.com/41651749/51181393-10d39f00-18f1-11e9-8905-a85c485fbeda.png)
 
 - Now, we need to find occurances of the above logo files in the respective PDF brochure files or image files. 
-- Axis Bank Brochure Sample Used: [Axisbank.pdf](https://github.com/IWorkWonders/LogoAndTextDetector/files/2759675/Axisbank.pdf)
-- HDFC Bank Brochure Sample Used:[HDFC.pdf](https://github.com/IWorkWonders/LogoAndTextDetector/files/2759676/HDFC.pdf)
-
+- --
+- ### Axis Bank Brochure Sample Used: [Axisbank.pdf](https://github.com/IWorkWonders/LogoAndTextDetector/files/2759675/Axisbank.pdf)
+- ### HDFC Bank Brochure Sample Used:[HDFC.pdf](https://github.com/IWorkWonders/LogoAndTextDetector/files/2759676/HDFC.pdf)
+---
 - Now, the next step is to just place logo files in any Logo folder and PDF or image files in any repository folder. Provide the full path of each directories in the script.
 - Add textual keywords to be searched (each separated by a semi-colon). 
 - In this case I wish to search for 'axis' and 'hdfc', so I passed:  **"axis;hdfc"**.
@@ -91,13 +92,14 @@
 - Look at the **"KEYWORDS TO DETECT"**, this is the textual keywords, passed in order to get it detected. 
 - There was an errored out row as well, during the processing which has been caught during in the report as below. Giving us an opportunity to look at the **"Log File"**.
 
-![screen_reportexcelerror](https://user-images.githubusercontent.com/41651749/51182447-42019e80-18f4-11e9-9517-e5250f08b087.png)
+- ![screen_reportexcelerror](https://user-images.githubusercontent.com/41651749/51182447-42019e80-18f4-11e9-9517-e5250f08b087.png)
 - Some how there was a problem with a return value, (on which I will work post this ReadMe update) 
-![errorlog](https://user-images.githubusercontent.com/41651749/51183866-8ee77400-18f8-11e9-9920-056cd50a7284.png)
+- ![errorlog](https://user-images.githubusercontent.com/41651749/51183866-8ee77400-18f8-11e9-9920-056cd50a7284.png)
 - The log file helps in understanding what went wrong, and yet keeps the program execution in progress when an error is encountered. 
 
+---
 ## Results: 
-
+---
 ### Sample Result - HDFC BANK : [Logo Detection]
 
 ![res_key_hdfc_full___conv_-000002](https://user-images.githubusercontent.com/41651749/51187042-fd303480-1900-11e9-993e-8db791e219d0.png)
@@ -105,6 +107,7 @@
 ![res_key_hdfc_full___conv_-000010](https://user-images.githubusercontent.com/41651749/51187044-fd303480-1900-11e9-9d7b-63fa9bb09851.png)
 ![res_key_hdfc_full___conv_-000001](https://user-images.githubusercontent.com/41651749/51187045-fdc8cb00-1900-11e9-8060-c2e8ce50e06e.png)
 
+---
 ### Sample Result - AXIS BANK : [Logo Detection]
 
 ![res_key_axislogofull___conv_-000004](https://user-images.githubusercontent.com/41651749/51187831-b2172100-1902-11e9-92ed-a9f399de6a90.png)
@@ -113,14 +116,14 @@
 ![res_key_axislogofull___conv_-000002](https://user-images.githubusercontent.com/41651749/51187837-b3484e00-1902-11e9-85ae-38c621a8e4f0.png)
 ![res_key_axislogofull___conv_-000003](https://user-images.githubusercontent.com/41651749/51187838-b3484e00-1902-11e9-8872-3864c29788e5.png)
 
-
+---
 ### Sample Result - HDFC BANK : [Textual Keyword Detection]
 
 ![conv_-000001_text_detection_result](https://user-images.githubusercontent.com/41651749/51188748-914fcb00-1904-11e9-864e-68e75e27a681.png)
 ![conv_-000003_text_detection_result](https://user-images.githubusercontent.com/41651749/51188750-9280f800-1904-11e9-817c-6e3ec8345eb7.png)
 ![conv_-000002_text_detection_result](https://user-images.githubusercontent.com/41651749/51188749-91e86180-1904-11e9-9de8-6d131d160e55.png)
 
-
+---
 ### Sample Result - AXIS BANK : [Textual Keyword Detection]
 
 ![conv_-000002_text_detection_result](https://user-images.githubusercontent.com/41651749/51187999-0ae6b980-1903-11e9-929d-39648aac7fdb.png)
@@ -133,6 +136,9 @@
 #### Points To Note: 
 - At some instances, the textual detection was missed, however, we make up for it in the Logo detection, if you look closely in the above result images, and similarly vice versa. 
 - Artificial intelligence has not yet advanced to get results with 100% confidence/accuracy, in pattern recognition or image text extraction. Hence, such measures to increase accuracy.
+
+
+
 
 
 
