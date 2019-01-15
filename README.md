@@ -1,7 +1,13 @@
-# Logo And Text Detector [LTD]
 
 # IWorkWondersLabs - Intelligence Innovated.
+![iworkwonderslabs](https://user-images.githubusercontent.com/41651749/51181297-d538d500-18f0-11e9-81d8-0743d1bf3e01.PNG)
 
+
+# Logo And Text Detector [LTD]
+---
+
+
+![](https://github.com/IWorkWonders/LogoAndTextDetector/blob/master/LTD_LOGO.png?raw=true)
 
 ###### A complete solution CLI tool to detect for patterns (logos/templates) or Textual Keywords in any Image format files or PDF documents in any given folder/directory structure and report the findings. 
 
@@ -9,9 +15,6 @@
 
 ###### Useful to search for any pattern, shapes, alphabets, text, keywords in image or PDF document formats.
 
-# LTD
-
-![](https://github.com/IWorkWonders/LogoAndTextDetector/blob/master/LTD_LOGO.png?raw=true)
 
 # Features:
 
