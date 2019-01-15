@@ -140,7 +140,9 @@
 
 
 
+## Look forward for more updates on this project. Planning to add other logo and text detection techniques.
 
+---
 
 
 
