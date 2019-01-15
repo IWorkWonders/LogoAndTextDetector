@@ -8,7 +8,7 @@
 
 # LTD
 
-![](https://github.com/IWorkWonders/SubImageSearcher/blob/master/LastPage/SIS_MAIN_PAGE.png?raw=true)
+![](https://github.com/IWorkWonders/LogoAndTextDetector/blob/master/LTD_LOGO.png?raw=true)
 
 # Features:
 
