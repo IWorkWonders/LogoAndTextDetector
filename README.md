@@ -1,5 +1,8 @@
 # Logo And Text Detector [LTD]
 
+# IWorkWondersLabs - Intelligence Innovated.
+
+
 ###### A complete solution CLI tool to detect for patterns (logos/templates) or Textual Keywords in any Image format files or PDF documents in any given folder/directory structure and report the findings. 
 
 ###### A very useful tool for re-branding corporate projects to check for the reminiscence of logos or textual mentions in various documentations, ad campaign, rebranding documents, auto generated policy documents etc.
