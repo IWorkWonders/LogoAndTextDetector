@@ -95,7 +95,7 @@
 - This is how the excel report looks. 
 ![screen_reportexcel](https://user-images.githubusercontent.com/41651749/51182448-42019e80-18f4-11e9-9c9b-03b898f858a0.png)
 - Look at the **"MIN MATCH COUNT GIVEN"**, this decides how many minimum matches should be considered in order to get the detection listed on the report. 
-- Look at the **"KEYWORDS TO DETECT"**, this is the textual keywords, passed in order to get it detected. 
+- Look at the **"KEYWORDS TO DETECT"**, these are the textual keywords, passed in order to get it detected. 
 - There was an errored out row as well, during the processing which has been caught during in the report as below. Giving us an opportunity to look at the **"Log File"**.
 
 - ![screen_reportexcelerror](https://user-images.githubusercontent.com/41651749/51182447-42019e80-18f4-11e9-9517-e5250f08b087.png)
